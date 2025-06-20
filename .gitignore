@@ -1,0 +1,10 @@
+node_modules/
+
+# Build outputs
+dist/
+
+# Environment variables
+.env
+
+# Test coverage reports
+coverage/

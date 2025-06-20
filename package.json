@@ -1,0 +1,40 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite ",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "linte": "eslint",
+    "lint": "oxlint \"./src/**/*.{js,jsx,ts,tsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@tanstack/eslint-plugin-query": "^5.59.7",
+    "@tanstack/react-query-devtools": "^5.59.13",
+    "@tanstack/router-devtools": "^1.65.0",
+    "@tanstack/router-plugin": "^1.65.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "babel-plugin-react-compiler": "^19.0.0-beta-af1b7da-20250417",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.9.0",
+    "oxlint": "^0.16.10",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.13",
+    "@tanstack/react-router": "^1.65.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
